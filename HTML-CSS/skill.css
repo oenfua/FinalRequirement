@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	  
+
+}
+
+.container{
+	width: 100%;
+	height: 100vh;
+	background-image: url('q.jpg');
+	background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+
+
+}
+
+.navbar{
+	height: 12%;
+	display: flex;
+	align-items: center;
+}
+
+.logo{
+	width: 75px;
+	margin: 50px 0;
+	cursor: pointer;
+}
+
+.menu-icon{
+	width: 75px;
+	margin: 50px 0;
+	cursor: pointer;
+	margin-left: 40px ;
+}
+nav{
+	flex: 1;
+	
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 60px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+
+h1{
+	text-align: center;
+	margin-top: 40px;
+	font-size: 80px;
+}
+
+h2{
+	text-align: center;
+}
+h3{
+	margin: 5px;
+}
+
+.skill{
+	width: 500px;
+	margin: 60px auto;
+	color: black;
+	padding: 20px;
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.skill li{
+	margin: 20px 0 ;
+	padding: 10px;
+}
+
+.bar{
+	background: #353b48;
+	display: block;
+	height: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.3) ;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.bar:hover{
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.bar span{
+	height: 20px;
+	float: left;
+	background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%,rgba(252, 103, 0, 1)100%);
+}
+
+.html{
+	width: 90%;
+	animation: html 3s;
+}
+
+.css{
+	width: 70%;
+	animation: css 3s;
+}
+
+.php{
+	width: 45%;
+	animation: php 3s;
+
+}
+
+.java{
+	width: 90%;
+	animation: java 3s;
+}
